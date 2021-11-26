@@ -1,0 +1,16 @@
+.toastui-editor-popup-font-size .toastui-editor-popup-body {
+  padding: 0;
+}
+.font-size-picker {
+  display: flex;
+  flex-direction: column;
+}
+
+.font-size-picker button {
+  height: unset;
+  padding: 8px 15px;
+}
+
+.font-size-picker button:hover {
+  background: #eaeaea;
+}
