@@ -46,6 +46,7 @@ const fontSizePlugin = (function () {
 
     fontSizeValues.forEach((s) => {
       const btn = document.createElement("button");
+      btn.setAttribute("type", "button");
       btn.textContent = s;
       content.appendChild(btn);
     });
